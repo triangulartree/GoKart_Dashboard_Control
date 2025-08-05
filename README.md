@@ -1,3 +1,3 @@
 # GoKart_Dashboard_Control
 
-Testing testing
+The Arduino/ESP32 code for the Dumbmobile

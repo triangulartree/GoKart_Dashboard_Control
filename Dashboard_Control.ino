@@ -1,7 +1,7 @@
-
 //Libraries
 #include <LiquidCrystal_I2C.h>
 #include <string> 
+
 //Define constants
 const int temp_button = 27;
 const int battery_button = 26;
@@ -12,6 +12,7 @@ String mode;
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 //List of custom characters
+
 //Battery Characters
 byte bat_top_left[] = {
   B00000,
@@ -99,7 +100,6 @@ enum Charge_state {
   CHARGE_ON,
   CHARGE_OFF
 };
-
 Charge_state charge_current_state = CHARGE_ON;
 unsigned long charge_last_millis = 0;
 
